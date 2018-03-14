@@ -1,0 +1,40 @@
+<svg id="comet2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341.44 242.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939089;
+        stroke: #594a42;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #7c6e69;
+      }
+
+      .cls-3 {
+        fill: #594a42;
+      }
+    </style>
+  </defs>
+  <title>asteroid3</title>
+  <path class="cls-1" d="M231.66,366.79s2.87-40.25,28.75-47.44,43.13-28.75,43.13-28.75,40.25-35.94,53.19-28.75,83.38,17.25,106.38,86.25,61.82,40.26,83.38,50.32,34.51,61.82,0,71.88-44.56,2.87-79.07,20.13-99.19,8.62-104.94-17.26S315,445.86,307.85,445.86s-51.75-27.31-51.75-43.13S223.52,395.77,231.66,366.79Z" transform="translate(-228.35 -258.9)"/>
+  <ellipse class="cls-2" cx="104.17" cy="96.87" rx="23.38" ry="11.87"/>
+  <ellipse class="cls-3" cx="104.17" cy="100.93" rx="18.12" ry="8.27"/>
+  <ellipse class="cls-2" cx="185.61" cy="213.83" rx="33.7" ry="17.12"/>
+  <ellipse class="cls-3" cx="185.61" cy="219.69" rx="26.12" ry="11.93"/>
+  <ellipse class="cls-2" cx="407.72" cy="409.87" rx="11.87" ry="23.38" transform="translate(-387.35 36.68) rotate(-33.75)"/>
+  <ellipse class="cls-3" cx="404.34" cy="412.13" rx="8.27" ry="18.12" transform="translate(-389.17 35.18) rotate(-33.75)"/>
+  <ellipse class="cls-2" cx="364.4" cy="284.65" rx="23.38" ry="11.87" transform="translate(-300.08 -127.88) rotate(-18.59)"/>
+  <ellipse class="cls-3" cx="365.69" cy="288.5" rx="18.12" ry="8.27" transform="translate(-301.24 -127.27) rotate(-18.59)"/>
+  <ellipse class="cls-2" cx="516.99" cy="424.69" rx="11.87" ry="23.38" transform="translate(-320.81 441.86) rotate(-63.77)"/>
+  <ellipse class="cls-3" cx="515.2" cy="428.33" rx="8.27" ry="18.12" transform="translate(-325.08 442.28) rotate(-63.77)"/>
+  <ellipse class="cls-2" cx="104.17" cy="150.86" rx="11.69" ry="5.94"/>
+  <ellipse class="cls-3" cx="104.17" cy="152.89" rx="9.06" ry="4.14"/>
+  <ellipse class="cls-2" cx="188.35" cy="84.77" rx="23.38" ry="11.87"/>
+  <ellipse class="cls-3" cx="188.35" cy="88.83" rx="18.12" ry="8.27"/>
+  <ellipse class="cls-2" cx="37.98" cy="120.62" rx="20.75" ry="11.87"/>
+  <ellipse class="cls-3" cx="37.98" cy="124.68" rx="16.08" ry="8.27"/>
+  <ellipse class="cls-2" cx="232.93" cy="148.52" rx="23.38" ry="11.87"/>
+  <ellipse class="cls-3" cx="232.93" cy="152.59" rx="18.12" ry="8.27"/>
+</svg>

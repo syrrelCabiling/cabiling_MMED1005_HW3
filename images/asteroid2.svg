@@ -1,0 +1,36 @@
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655.73 414.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939089;
+        stroke: #594a42;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #7c6e69;
+      }
+
+      .cls-3 {
+        fill: #594a42;
+      }
+    </style>
+  </defs>
+  <title>asteroid2</title>
+  <path class="cls-1" d="M202.23,659.9s16.14-45.22,63-46.83,50.06-42,77.51-53.29,80.73-21,116.26,14.54,100.11,17.76,137.25,64.59,42,105,35.52,119.49,25.84,84,56.52,71S770.61,856.89,769,879.5s-4.85,59.74-59.75,75.89-35.52-12.92-95.27-8.07-140.48-6.46-163.09-50.06S302.34,961.85,202.23,936s-84-158.25-84-158.25S111.8,710,136,682.5,202.23,659.9,202.23,659.9Z" transform="translate(-115.3 -547.44)"/>
+  <ellipse class="cls-2" cx="366.81" cy="198.82" rx="33.7" ry="17.12"/>
+  <ellipse class="cls-3" cx="366.81" cy="204.67" rx="26.12" ry="11.93"/>
+  <ellipse class="cls-2" cx="236.9" cy="881.13" rx="33.7" ry="17.12" transform="translate(-324.84 -462.06) rotate(-14.25)"/>
+  <ellipse class="cls-3" cx="238.34" cy="886.8" rx="26.12" ry="11.93" transform="translate(-326.19 -461.53) rotate(-14.25)"/>
+  <ellipse class="cls-2" cx="598.53" cy="886.49" rx="17.12" ry="33.7" transform="translate(-547.73 624.05) rotate(-71.43)"/>
+  <ellipse class="cls-3" cx="596.66" cy="892.04" rx="11.93" ry="26.12" transform="translate(-554.26 626.07) rotate(-71.43)"/>
+  <ellipse class="cls-2" cx="319.78" cy="694.18" rx="33.7" ry="17.12" transform="translate(-396.15 -325.9) rotate(-27.07)"/>
+  <ellipse class="cls-3" cx="322.45" cy="699.4" rx="26.12" ry="11.93" transform="translate(-398.23 -324.12) rotate(-27.07)"/>
+  <ellipse class="cls-2" cx="306.99" cy="303.6" rx="33.7" ry="17.12"/>
+  <ellipse class="cls-3" cx="306.99" cy="309.46" rx="26.12" ry="11.93"/>
+  <ellipse class="cls-2" cx="366.81" cy="88.91" rx="33.7" ry="17.12"/>
+  <ellipse class="cls-3" cx="366.81" cy="94.76" rx="26.12" ry="11.93"/>
+  <ellipse class="cls-2" cx="49.04" cy="232.42" rx="33.7" ry="17.12"/>
+  <ellipse class="cls-3" cx="49.04" cy="238.27" rx="26.12" ry="11.93"/>
+</svg>
