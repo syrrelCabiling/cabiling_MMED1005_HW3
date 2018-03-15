@@ -34,6 +34,7 @@ h1
 	height: 600px;
 	background: url(../images/game_container_bckgrd.jpg);
 	margin: 0 auto;
+	overflow:hidden;
 }
 
 #rocket_ship
@@ -57,6 +58,48 @@ h1
 #asteroid3
 {
 	width: 65px;
+}
+
+#asteroid1{
+  animation-duration: 2s;
+  animation-name: falling;
+animation-iteration-count: infinite;
+transform: translate(100px, 600px) rotateZ(270deg);
+}
+
+
+#asteroid2{
+  animation-duration: 2s;
+  animation-name: falling;
+animation-iteration-count: infinite;
+}
+
+
+#asteroid3{
+  animation-duration: 2s;
+  animation-name: falling;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%,-100%, 0);
+  }
+      
+  100% {
+    transform: translate3D(7.5%,1000%, 0);
+  }  
+}
+
+/*@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-bottom: 100%;
+  }
 }
 
 /* END OF GAME FRAME*/
@@ -113,5 +156,4 @@ footer
 {
 	opacity: 0.5;
 }
-
 
