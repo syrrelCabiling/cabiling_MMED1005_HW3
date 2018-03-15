@@ -8,7 +8,8 @@
 
 #container
 {
-	width: 1200px;
+	margin: 0 auto;
+	width: 980px;
 }
 
 body
@@ -24,13 +25,41 @@ h1
 	margin-bottom: 20px;
 }
 
+/* FRAME OF GAME*/
+
 #frame
 {
-	width: 800px;
-	height: 800px;
-	background-color: black;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background: url(../images/game_container_bckgrd.jpg);
 	margin: 0 auto;
 }
+
+#rocket_ship
+{
+	top: 520px;
+	position: absolute;
+	width: 30px;
+	margin: 0 auto;
+}
+
+#asteroid1
+{
+	width: 50px;
+}
+
+#asteroid2
+{
+	width: 55px;
+}
+
+#asteroid3
+{
+	width: 65px;
+}
+
+/* END OF GAME FRAME*/
 
 #timer
 {
