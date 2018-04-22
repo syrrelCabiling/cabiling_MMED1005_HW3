@@ -2,103 +2,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Starship Troopers Game</title>
-<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono%7CTeko" rel="stylesheet">
-<link href="css/reset.css" rel="stylesheet" type="text/css">
+<title>Canvas Game Stuff</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<main id="container">
-		<h1>Can you make it through the asteroids?</h1>
-		<section id="frame">
-			<h2 class="hidden">Game Frame</h2>
-			<svg id="rocket_ship" data-name="rocket ship" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.91 523.35">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #f7941d;
-      }
-
-      .cls-2 {
-        fill: #2b3990;
-      }
-
-      .cls-3 {
-        fill: #27aae1;
-      }
-
-      .cls-4 {
-        fill: none;
-        stroke: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: 3px;
-      }
-    </style>
-  </defs>
-  <title>rocket</title>
-  <path class="cls-1" d="M394.67,342.2" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-1" d="M499.67,202.48" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-1" d="M604.75,342.2" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-1" d="M499.75,202.48" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-2" d="M469.76,591.44s-36.51-2.52-50.05,13.92-37.91,93-37.91,93-4.37,26.78,17.78,12.45,27.06-31.55,41.75-34.66,51.32-1.85,51.32-1.85Z" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-2" d="M528.09,591.93s36.46-3.06,50.25,13.17,39.31,92.46,39.31,92.46,4.77,26.71-17.6,12.73-27.53-31.14-42.26-34-51.35-1.07-51.35-1.07Z" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-2" d="M574.57,361.61s18.5-1.54,25.39,9,19.4,59.84,19.4,59.84,2.26,17.21-9,8-13.78-20.32-21.23-22.35-26-1.28-26-1.28Z" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-2" d="M425.61,359.51s-18.5-1.54-25.4,9-19.39,59.84-19.39,59.84-2.27,17.21,9,8S403.58,416,411,414s26-1.28,26-1.28Z" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-1" d="M500.75,191.73s-14.49,6-25.24,23.89-51.35,64.48-50.15,154S500.09,693.29,500.42,704,500.75,191.73,500.75,191.73Z" transform="translate(-380.63 -191.73)"/>
-  <path class="cls-1" d="M499.67,191.73s14.49,6,25.24,23.89,51.35,64.48,50.15,154S500.33,693.29,500,704,499.67,191.73,499.67,191.73Z" transform="translate(-380.63 -191.73)"/>
-  <circle class="cls-2" cx="120.12" cy="118.59" r="31.88"/>
-  <circle class="cls-3" cx="120.12" cy="118.59" r="18.65"/>
-  <line class="cls-4" x1="129.57" y1="122.83" x2="122.31" y2="130.74"/>
-  <line class="cls-4" x1="131.18" y1="127.46" x2="127.32" y2="131.7"/>
-  <line class="cls-4" x1="127.58" y1="116.83" x2="116.22" y2="129.5"/>
-</svg>
-
-			<img id="asteroid1" src="images/asteroid1.png" alt="asteroid">
-			<img id="asteroid2" src="images/asteroid2.svg" alt="asteroid">
-			<img id="asteroid3" src="images/asteroid3.svg" alt="asteroid">
-
-		</section>
-
-		<section id="timer">
-		<h2 class="hidden">Clock that counts how long you've lasted</h2>
-		</section>
-
-		<section class="resetScreen">
-			<h1>Oh no you've crashed! GAME OVER</h1>
-			<button>Play Again</button>
-		</section>
-
-		<footer>
-				<section id="socialMediaCon">
-            	<h2 class="hidden">Social Media</h2>
-                <ul id="iconNav">
-  					<li id="facebook">
-                    <a href="http://www.facebook.com">
-                    <img src="images/facebook.png" alt="facebook">
-                    </a>
-                    </li>
-  					<li id="instagram">
-                    <a href="http://www.instagram.com">
-                    <img src="images/instagram.png" alt="instagram">
-                    </a>
-                    </li>
-                    <li id="twitter">
-                    <a href="http://www.twitter.com">
-                    <img src="images/twitter.png" alt="twitter">
-                    </a>
-                    </li>
-                    <li id="youtube">
-                    <a href="http://www.youtube.com">
-                    <img src="images/youtube.png" alt="youtube">
-                    </a>
-                    </li>
-				</ul>
-            </section>
-
-		</footer>
-
-	</main>
+<div class="container">
+	<div class="sliding-background"></div>
+</div>
+<canvas width="600" height="600"></canvas>
+	
+	<button class="pause">Pause Game</button>
+	<button class="play">Play Game</button>
+	
+<img class="hide-me ship" src="images/rocketship.png" alt="player">
+	<!--enemy-->
+	<img class="hide-me enemyOne" src="images/asteroid1.png" alt="enemy">
+	<img class="hide-me enemyTwo" src="images/asteroid2.png" alt="enemy">
+	<img class="hide-me enemyThree" src="images/asteroid3.png" alt="enemy">
+	
+	<div class="level-up">
+		<h4 class="level-up-message"></h4>
+		<p>Ready Player 1?</p>
+		<button class="reset">LEVEL UP</button>
+	</div>
 
 <script src="js/main.js"></script>
 </body>
